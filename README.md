@@ -30,7 +30,7 @@ an dictionary with keys input and output; the value for key input is also an dic
            for feature in input_data.keys():
                print(f'feature name is {feature}')
                print(f'check feature dimension: {input_data[feature].shape}')
-           output_labels = set(list(output_data['output']))
+           output_labels = set(list(output_data))
            print(f'the output labels include: {output_labels}')
 
 
@@ -48,5 +48,5 @@ an dictionary with keys input and output; the value for key input is also an dic
         for feature in input_data.keys():
             print(f'feature name is {feature}')
             print(f'check feature dimension: {input_data[feature].shape}')
-        output_labels = set(list(output_data['output']))
+        output_labels = set(list(output_data))
         print(f'the output labels include: {output_labels}')
